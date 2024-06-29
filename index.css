@@ -1,0 +1,229 @@
+#navElement > button{
+    width: 20%;
+    background-color:#e7dfdb ;
+}
+
+#locations > div{
+    width: 35%;
+}
+
+button{
+    transition-duration: 100ms;
+}
+
+button:hover{
+    cursor:pointer;
+}
+.navButton{
+    color: #59351F; 
+    background-color: white; 
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navButton:hover{
+    color: #7D4C2C;
+    opacity: .8;
+}
+
+.headerbutton{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    background-color: #59351F;
+}
+
+.headerbutton:hover{
+    background-color: #7D4C2C;
+}
+
+#footer>div{
+    width: 50%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#Welcome{
+    font-family: "Caveat", cursive;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+#mission>h2{
+    font-family: "Caveat", cursive;
+    font-size: 36px;
+    font-weight: 700;
+    color: #7d48c7;
+}
+
+#search{
+    background-image: url('Backdrop.jpg');
+    background-size: contain;
+}
+
+#searchBar>button{
+    border-radius: 5px; 
+    background-color: #63842A; 
+    color: #ffffff;
+    border: none;
+    height: 43.8px;
+}
+
+#searchBar>button:hover{
+    cursor: pointer;
+    background-color: #6232A4;
+}
+
+#northIsland{
+    position: relative;
+    background-image: url('NorthIsland.png');
+    background-size: contain;
+    height: 220px;
+    background-size: 100% 100%;
+    transition-duration: 100ms;
+}
+
+#northIsland:hover{
+    cursor:pointer;
+    opacity: .8;
+}
+
+#southIsland{
+    position: relative;
+    background-image: url('SouthIsland.png');
+    background-size: contain;
+    height: 220px;
+    background-size: 100% 100%;
+    transition-duration: 100ms;
+}
+
+#southIsland:hover{
+    cursor:pointer;
+    opacity: .8;
+}
+
+#northIsland>h3, #southIsland>h3{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    position: absolute;
+    top: 0px;
+    font-weight: 400;
+}
+
+::placeholder{
+    color: #7D4C2C;
+}
+
+#form-ct{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e7dfdb;
+    border-radius: 5px;
+}
+
+#form-ct>button{
+    background-color: #59351F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#user-details{
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #59351F;
+}
+
+#user-details>input{
+    display: block;
+    border-color: #63842A;
+    border-radius: 3px;
+}
+
+#user-details>label::after{
+    content:" *";
+    color: red;
+}
+
+#address-details{
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #59351F;
+}
+
+#address-details>input{
+    display: block;
+    border-color: #63842A;
+    border-radius: 3px;
+}
+
+#homeAddressLabel::after{
+    content:" *";
+    color: red;
+}
+
+#contact-details{
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #59351F;
+}
+
+#contact-details>input{
+    display: block;
+    border-color: #63842A;
+    border-radius: 3px;
+}
+
+#emailLabel::after{
+    content:" *";
+    color: red;
+}
+
+#Register{
+    font-size: 20px; 
+    border-radius: 5px; 
+    background-color: #63842A; 
+    color: #ffffff; 
+    border: none; 
+    width: 320px; 
+    height: 40px;
+}
+
+#Register:hover{
+    cursor: pointer;
+    background-color: #6232A4;
+}
+
+#RegisterBackdrop{
+    display: none; 
+    background-color: black; 
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    opacity: 0.6;
+}

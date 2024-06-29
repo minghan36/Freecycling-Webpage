@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Main Page | Freecycling!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link href="https://fonts.googleapis.com/css2?family=Caveat">
+</head>
+<body>
+
+<!-- Header-->
+<div id="header" class="w3-bar" style="background-color: white;">
+    <div style="margin-left: 20%; margin-right: 20%; width:60%;">
+        <img src="LOGO.png" alt="FREECYCLING! Logo" class="w3-bar-item w3-button" height="110px" style="padding: 0; margin-top: 30px;"/>
+        <div class="w3-right" style="border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; height: 30px; background-color: #59351F;">
+            <button class="w3-text-white w3-right button headerbutton" style="text-decoration: underline; border-right: none; border-bottom-right-radius: 4px;">LOGIN</button>
+            <button id="trigger-modal" type="button" class="w3-text-white w3-right button headerbutton" style="text-decoration: underline; border-bottom-left-radius: 4px;">REGISTER</button>      
+        </div>
+    </div>
+</div>
+<!--Nav Bar-->
+<div id="nav" class="w3-bar w3-white" style="text-align: center; padding-bottom: 40px;">
+    <div id ="navElement" style="margin-left: 20%; margin-right: 20%; width: 60%; font-size: 0px;">
+        <button  class="button navButton">ABOUT</button>
+        <button  class="button navButton">CONTACT</button>
+        <button  class="button navButton">BROWSE</button>
+        <button  class="button navButton">NEWS</button>
+        <button  class="button navButton">PROFILE</button>
+    </div>
+</div>
+<main>
+    <!--Search Bar-->
+    <div id="search" class="w3-container" title="Search Background Filler" style="background-color: #e7dfdb; display: flex; height: 215px; justify-content: center; align-items: center; margin-bottom: 40px;">
+        <div style=" text-align: center; color: #7d48c7; margin-left: 20%; margin-right: 20%; width:60%;">
+            <p2 id="Welcome">WELCOME! LET'S REUSE TOGETHER!</p2>
+            <form>
+                <div id="searchBar" style="width:100%; text-align: center; align-items: center; justify-content: center; height: auto; display: flex; margin-bottom: 5px; font-size: 18px;">
+                    <input type="text" style="height: 43.8px; width: 75%; border-radius: 5px; margin-right: 5px; border-color: #63842A; border-width: 3px;" placeholder="Search for an item...">
+                    <button class="button">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--Locations and mission-->
+    <div class="w3-container">
+        <div id="locations" class="w3-container" style="margin-left: 20%; margin-right: 20%; width:60%; display: flex; justify-content: center; align-items: center; margin-bottom: 40px;">
+            <div id="northIsland" title="IMG of North Island Outline" style="text-align: center; margin-left: 8%; margin-right: 2%;">
+                <div style="width: 100%; height: 36px; background-color: #59351F; opacity: .8; text-align: center; font-size: 18px;">
+                </div>
+                <h3 style="margin-left: 5px;">North Island</h3>
+            </div>
+            <img src="WhereTo.png" height="220px" alt="Title text for locations. Where to?" style="padding: 0px; margin: 0px;"/>
+            <div id="southIsland" title="IMG of South Island Outline" style="text-align: center; margin-left: 2%; margin-right: 8%;">
+                <div style="width: 100%; height: 36px; background-color: #59351F; opacity: .8; text-align: center; font-size: 18px;">
+                </div>
+                <h3 style="margin-left: 5px;">South Island</h3>
+            </div>
+        </div>
+        <div id="mission" class="w3-container" style=" margin-left: 20%; margin-right: 20%; width:60%; text-align: center; margin-bottom: 40px;">
+            <h2 style=" width:100%; text-decoration: underline; text-decoration-color: #63842A; margin-bottom: 0px;">WHO WE ARE</h2>
+            <p2 style="color: #59351F; font-size: 16px; margin-bottom: 10px;">
+                Welcome to Freecycling! We're your gateway to a vibrant community-driven initiative aimed at fostering sustainability and resourcefulness. At Freecycling!, we believe in the power of giving back and reducing waste by facilitating the exchange of items that are no longer needed but still have plenty of life left. Our platform connects individuals within local communities, allowing them to offer up items they no longer need for free, while also providing an avenue for others to find treasures they can use, all without spending a dime. Join us in our mission to build a more sustainable and generous world, one item at a time.</p2>
+        </div>    
+    </div>
+
+    
+<!--Footer-->
+<div class="w3-bar" style="position: fixed; left: 0; bottom: 0; display: flex; justify-content: center; align-items: center; background-color: #e7dfdb; height: 140px;">
+    <div id="footer" style="margin-left: 20%; margin-right: 20%; width:60%;">
+        <a class="w3-bar-item button footerbutton" style="font-size: 16px; color: #59351F;">CONTENT</a>
+        <div class="w3-right" style="font-size: 16px; color: #59351F; display: flex; align-items: center; height: 43px;">
+            <p2 style="margin-right: 5px; margin-left: 275px;">&copy; Copyright FREECYCLING!</p2> 
+            <img src="LOGODARK.png" alt="FREECYCLING! Logo" height="40px" style="padding: 0;"/>    
+        </div>
+    </div>
+</div>
+</main>
+
+<!--Registration Form-->
+<div id="form-ct">
+    <form style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 400px;">
+        <div style="width: 100%; text-align: right; height: 24px; margin: 0px; padding: 0px; font-size: 0px;">
+            <button id="close" type="button" style="background-color: #e7dfdb; height: 24px; border: none; font-size: 24px; color: #59351F; border-top-right-radius: 5px;">X</button>
+        </div>
+        <h1 style="font-family: 'Caveat', cursive; color: #7d48c7; font-size: 40px; font-weight: 600; margin-bottom: 20px; margin-top: 0px;">Register</h1>
+        <div id="user-details">
+            <label for="Fname">Given Name:</label>
+            <input type="text" id="Fname" placeholder="John">
+            <label for="Lname">Surname:</label>
+            <input type="text" id="Lname" placeholder="Smith">
+            <label for="Username">Username:</label>
+            <input type="text" id="Username" placeholder="JohnSmith123">
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" placeholder="Password1234">
+        </div>
+        <div id="address-details">
+            <label id="homeAddressLabel" for="Haddress">Home Address:</label>
+            <input type="text" id="Haddress" placeholder="123 Browns Street">
+            <label for="Waddress">Work Address:</label>
+            <input type="text" id="Waddress" placeholder="123 Browns Street">
+        </div>
+        <div id="contact-details">
+            <label for="Mobile">Mobile Number:</label>
+            <input type="tel" id="Mobile" placeholder="012 3456 789">
+            <label id="emailLabel" for="Email">Email:</label>
+            <input type="email" id="Email" placeholder="JohnSmith123@gmail.com">
+        </div>
+        <button href="#" id="Register">Register</button>
+        <p2 style="margin-bottom: 20px; margin-top: 2px;">Already have an account? <a href="#">Login</a></p2>
+    </form>
+</div>
+<div id="RegisterBackdrop"></div>
+</body>
+<script src="script.js"></script>
+</html>
